@@ -2,28 +2,34 @@ package Managers;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class WebDriverManager {
-    private WebDriver driver;
-    private String webDriverType;
 
     public WebDriverManager(String webDriverType) {
         this.webDriverType = webDriverType;
+
     }
 
+    private WebDriver driver;
+    private String webDriverType;
+
     private WebDriver createDriver() {
+
         switch (webDriverType) {
             case "CHROME":
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--remote-allow-origins=*");
                 System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
-                driver = new ChromeDriver();
+                driver = new ChromeDriver(chromeOptions);
                 break;
             case "FIREFOX":
-                System.setProperty("webdriver.gecko.driver", "src/main/resources/drivers/geckodriver.exe");
+                System.setProperty("webdriver.gecko2.driver", "src/main/resources/drivers/geckodriver.exe");
                 driver = new FirefoxDriver();
                 break;
             default:
-                System.out.println("Optiunea de webdriver indicata nu este valabila!");
+                System.out.println("Optiunea de webdriver nu este valabila! Mai incearca ;)");
         }
         return driver;
     }
@@ -36,11 +42,12 @@ public class WebDriverManager {
     }
 
     public void closeDriver() {
-        if (driver != null) {
-            driver.close();
-            System.out.println("Driver-ul a fost inchis!");
+        if (driver != null) ;
+        {
+            driver.quit();
+            System.out.println("driverul este inchis!");
         }
-    }
 
+    }
 
 }
