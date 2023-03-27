@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c248cdfa-16d8-4831-94dd-e88fc0139297" name="Changes" comment="Homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Managers/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Managers/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRunner" />
         <item itemvalue="Application.TestRunner" />
       </list>
     </recent_temporary>
