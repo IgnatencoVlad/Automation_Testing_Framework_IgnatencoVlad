@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c248cdfa-16d8-4831-94dd-e88fc0139297" name="Changes" comment="Homework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Managers/WebDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JunitPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/RegisterPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
       <recent name="D:\Project\Automation_Testing_Framework_IgnatencoVlad\Automation_Testing_Framework\src\main\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JunitPractice">
     <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestRunner" />
       <module name="Automation_Testing_Framework" />
@@ -62,8 +60,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JunitPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Testing_Framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitPractice" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitPractice.registerPageElementsAreDispalyed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Testing_Framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitPractice" />
+      <option name="METHOD_NAME" value="registerPageElementsAreDispalyed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitPractice.verufyIfTheRegisterPageIsAcesible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Testing_Framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitPractice" />
+      <option name="METHOD_NAME" value="verufyIfTheRegisterPageIsAcesible" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitPractice" />
+        <item itemvalue="JUnit.JunitPractice.registerPageElementsAreDispalyed" />
+        <item itemvalue="JUnit.JunitPractice.verufyIfTheRegisterPageIsAcesible" />
+        <item itemvalue="Application.TestRunner" />
         <item itemvalue="Application.TestRunner" />
       </list>
     </recent_temporary>
@@ -91,12 +122,52 @@
       <option name="project" value="LOCAL" />
       <updated>1679158581023</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Homework">
+      <created>1679398816552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679398816552</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Homework">
+      <created>1679921044762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679921044762</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <MESSAGE value="Homework" />
     <option name="LAST_COMMIT_MESSAGE" value="Homework" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/TestRunner.java</url>
+          <line>8</line>
+          <properties class="TestRunner" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
